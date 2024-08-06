@@ -1,0 +1,145 @@
+.navbarcontainer {
+    display: flex;
+    background-color: #26292e;
+}
+
+.navbarcontainer h2 {
+    flex: 1;
+    font-family: "Butterfly Kids", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #949598;
+}
+
+.navbarcontainer img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 26px;
+}
+
+.navbarcontainer a {
+    align-content: center;
+}
+
+.toprowcontainer {
+    color: white;
+    background-color: #e7718b;
+    display: flex;
+}
+
+.toprowcontainer ul {
+    list-style: none;
+}
+
+.toprowbuttons {
+    display: flex;
+    gap: 88px;
+    position: relative;
+    left: 38px;
+    bottom: 10px;
+}
+
+.toprowbuttons button {
+    background: rgb(88,88,88);
+background: linear-gradient(90deg, rgba(88,88,88,1) 0%, rgba(0,0,0,1) 35%, rgba(88,88,88,1) 100%);
+color: white;
+border-radius: 8px;
+}
+
+.textandbuttons {
+    flex: 1;
+}
+
+.toprowimage {
+    flex: 1;
+}
+
+.toprowimage img {
+    width: 75%;
+}
+
+.middlerowcontainer {
+    display: flex;
+    columns: 50px 3;
+    border-bottom: #e7718b solid;
+}
+
+.middlerowcontainer h3 {
+    position: relative;
+    left: 39px;
+    color: #717173;
+}
+
+.middlerowcontainer li {
+    color: #ceced0;
+}
+
+.middlerowcontainer ul {
+    list-style: none;
+}
+
+.middlerowcontainer img {
+    position: relative;
+    top: 39px;
+    height: 20px;
+    width: 25px;
+}
+
+.mrcolumn1, .mrcolumn2, .mrcolumn3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.bottomsection {
+    display: flex;
+}
+
+.bottomsection img {
+    height: 98px;
+    width: 199px;
+}
+
+.imagerow1 {
+    flex: 2;
+}
+
+.imgrow2 {
+    flex: 1;
+}
+
+.footercontainer {
+    display: flex;
+    background-color: #26292e;
+}
+
+.footercontainer a {
+    align-content: center;
+}
+
+.footercontainer img {
+    height: 20px;
+    width: 20px;
+}
+
+.fctext {
+    flex: 2;
+    color: white;
+}
+
+.fclogos {
+    display: flex;
+    flex: 1;
+}
+
+.images {
+    display: flex;
+    position: relative;
+    top: 105px;
+    right: 77px;
+}
+
+.bstext {
+    display: flex;
+}
